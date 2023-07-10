@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
 
-
 public class Cat extends Zoo {
     private static int nextId = 0;
     private static int maxage = 15;

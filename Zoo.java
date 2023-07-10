@@ -14,7 +14,7 @@ public abstract class Zoo {
     protected boolean asleep;
     protected static Random rand = new Random();
     private static String[] prefFood;
-    private static int selfSleep;   //чем больше - тем ниже вероятность сна
+    private static int selfSleep;  
 
     protected boolean isSleeping(int sleepChance) {
 
@@ -41,6 +41,11 @@ public abstract class Zoo {
             System.out.printf("%s спит", this.name); System.out.println();
         }
     }
+
+
+
+
+}
 
 
 

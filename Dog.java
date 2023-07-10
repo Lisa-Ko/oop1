@@ -2,12 +2,13 @@ import java.util.Arrays;
 import java.util.Random;
 
 
+
 public class Dog extends Zoo {
     private static int nextId = 0;
     private static int maxage = 15;
     private static String sound = "гав-гав";
     private static String[] prefFood =  {"сосиска", "косточка", "собачий корм"};
-    private static int selfSleep = 7;   //чем больше - тем ниже вероятность сна
+    private static int selfSleep = 7;   
 
 
     public Dog(int id, String name, int age, boolean asleep) {
